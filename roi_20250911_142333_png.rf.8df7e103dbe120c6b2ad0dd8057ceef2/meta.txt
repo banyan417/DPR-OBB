@@ -1,0 +1,14 @@
+weights: F:\PyCharm 2025.2.2\PythonDevelop\PythonProject3\runs\train_OBB_Physics_Guided\V5_DPR-ema-P5P2_640s_Opt_best_V3\weights\best.pt
+source_image: F:\PyCharm 2025.2.2\PythonDevelop\PythonProject3\yolo_data_processed2\test\images\roi_20250911_142333_png.rf.8df7e103dbe120c6b2ad0dd8057ceef2.jpg
+label_file: F:\PyCharm 2025.2.2\PythonDevelop\PythonProject3\yolo_data_processed2\test\labels\roi_20250911_142333_png.rf.8df7e103dbe120c6b2ad0dd8057ceef2.txt
+imgsz: 640
+render_stride: 1
+DPR_MARGIN: 0.13
+DPR_BG_TOL: 0.06
+alignment_thr: 0.3
+mode: loss-consistent exporter with assigner and physics_mask
+selection_reason: physics_mask
+dense_selection_count: 15
+shape_gate_applied: True
+pred_obb_txt: global letterbox-image coordinates used inside loss.py visualization
+pred_obb_local_txt: local crop coordinates used by Iraw/Irend overlays
